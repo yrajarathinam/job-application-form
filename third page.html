@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Job </title>
+    </head>
+    <body style="text-align: center;font-size: 150%;line-height: 2;">
+        <div  style="width: 50%; float: left;" >
+        <h1>Job details</h1>
+
+        <label for="job">Select the Job role:</label>
+        <select id="job">
+            <option value="frontend dev">Frontend developer</option>
+            <option value="backend dev">Backend developer</option>
+            <option value="db admin">Database administrator</option>
+            <option value="fullstack dev">Fullstack developer</option>
+        </select><br>
+        
+
+        <label for="yrs">Years experienced</label>
+        <input type="text" required><br>
+
+        <label for="salary">Expected salary</label>
+        <input type="text"><br>
+
+        
+        <label for="files">Upload your resume</label>
+        <input type="file" id="files" name="files" multiple><br>
+
+        <label for="datetime">Preferable date and time to contact you:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br>
+
+        <p3>Any queries?</p3><br>
+        <textarea name="message" rows="8" cols="50"></textarea><br>
+
+        <button type="button" onclick="window.location.href='first.html'">Previous</button>
+
+        <button type=submit value="submit">Submit</button>
+        </div>
+
+        <div style="width: 40%; float: right; ">
+            <img src="c:\Users\Nature\Downloads\job img.jpg" alt="img" width="500px" height="500px" style="margin-top: 40px;">
+        </div>
+
+    </body>
+</html>
